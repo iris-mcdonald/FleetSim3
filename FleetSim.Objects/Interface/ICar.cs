@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FleetSim.Objects
 {
-    public class Class1
+    public interface ICar
     {
+        void RebuildEngine(int miles);
     }
 }
